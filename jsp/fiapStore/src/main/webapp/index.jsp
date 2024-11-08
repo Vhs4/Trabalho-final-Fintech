@@ -9,6 +9,8 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
+<h1>Não mexa aqui, irei criar a landing page aqui</h1>
+<a href="home.jsp">Home</a>
 <a href="hello-servlet">Hello Servlet</a>
 <a href="criar-conta.jsp">Sign-in</a>
     <c:forEach var="i" begin="1" step="1" end="10">
