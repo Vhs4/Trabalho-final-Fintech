@@ -10,6 +10,7 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
+<a href="criar-conta.jsp">Sign-in</a>
     <c:forEach var="i" begin="1" step="1" end="10">
         <p>${i} - FIAP</p>
     </c:forEach>
