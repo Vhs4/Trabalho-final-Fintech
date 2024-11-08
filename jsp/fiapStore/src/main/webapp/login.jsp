@@ -11,10 +11,6 @@
       font-size: 1.25em;
       margin-top: 0.25rem;
     }
-    .form-control:focus {
-      border-color: #ffc107 !important;
-      box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25) !important;
-    }
   </style>
 
 </head>
