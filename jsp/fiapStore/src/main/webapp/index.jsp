@@ -57,12 +57,12 @@
                         <a class="nav-link active" aria-current="page" href="#">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Soluções</a>
+                        <a class="nav-link" href="#solucoes">Soluções</a>
                     </li>
                 </ul>
                 <form class="d-flex gap-4">
-                    <button class="btn btn-warning text-white" type="submit">Entrar na minha conta</button>
-                    <button class="btn btn-primary" type="submit">Criar conta</button>
+                   <a href="login.jsp" class="btn btn-success text-white">Entrar na minha conta</a>
+                   <a href="criar-conta.jsp" class="btn btn-primary">Criar conta</a>
                 </form>
             </div>
         </div>
@@ -79,31 +79,28 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                <img class="bd-placeholder-img object-fit-cover" style="background-position: center" src="resources/imgs/bg2landingpage.jpg" alt="Plano de fundo carrossel" width="100%" height="100%" />
                 <div class="container">
                     <div class="carousel-caption text-start">
                         <h1>Soluções Financeiras Modernas</h1>
-                        <p class="opacity-75">Transforme sua experiência financeira com nossa plataforma inovadora.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
+                       <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                <div class="container">
+                                            <img class="bd-placeholder-img object-fit-cover" style="background-position: center" src="resources/imgs/bg3landingpage.jpg" alt="Plano de fundo carrossel" width="100%" height="100%" />
+    <div class="container">
                     <div class="carousel-caption">
                         <h1>Tecnologia e Segurança</h1>
-                        <p>Nossa fintech utiliza tecnologias de ponta para garantir a segurança das suas transações.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Descubra mais</a></p>
+                       <p><a class="btn btn-lg btn-primary" href="#">Descubra mais</a></p>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                <div class="container">
+                                            <img class="bd-placeholder-img object-fit-cover" style="background-position: center" src="resources/imgs/bg1landingpage.jpg" alt="Plano de fundo carrossel" width="100%" height="100%" />
+    <div class="container">
                     <div class="carousel-caption text-end">
                         <h1>Junte-se à Revolução Financeira</h1>
-                        <p>Seja parte de uma nova era financeira com nossa plataforma digital.</p>
                         <p><a class="btn btn-lg btn-primary" href="#">Começe agora</a></p>
                     </div>
                 </div>
@@ -119,11 +116,11 @@
         </button>
     </div>
 
-    <div class="container marketing">
+    <div class="container marketing" id="solucoes">
 
         <div class="row">
             <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="resources/imgs/imgCircular1.jpg" />
                 <h2 class="fw-normal">Gestão de Investimentos</h2>
                 <p>
                     Maximize seu retorno com nossa gestão de portfólio personalizada.
@@ -131,13 +128,13 @@
                 <p><a class="btn btn-secondary" href="#">Ver detalhes &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="resources/imgs/imgCircular2.jpg" />
                 <h2 class="fw-normal">Pagamentos Inteligentes</h2>
                 <p>Facilitamos pagamentos e transferências com segurança e conveniência.</p>
                 <p><a class="btn btn-secondary" href="#">Saiba mais &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="resources/imgs/imgCircular3.jpg" />
                 <h2 class="fw-normal">Consultoria Financeira</h2>
                 <p>Receba orientação especializada para otimizar suas finanças pessoais e empresariais.</p>
                 <p><a class="btn btn-secondary" href="#">Veja details &raquo;</a></p>
@@ -151,11 +148,11 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+                <h2 class="featurette-heading fw-normal lh-1">Inovação em Fintech. <span class="text-body-secondary">Transformando o futuro financeiro.</span></h2>
+                <p class="lead">Conteúdo impressionante para destacar nossa primeira funcionalidade. Imagine a liberdade de gerenciar suas finanças com facilidade e segurança.</p>
             </div>
             <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="resources/imgs/imgQuadrado1.jpg" alt="Imagem um" width="500" height="500" />
             </div>
         </div>
 
@@ -163,11 +160,11 @@
 
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+                <h2 class="featurette-heading fw-normal lh-1">Simplicidade e Eficiência. <span class="text-body-secondary">Veja por si mesmo.</span></h2>
+                <p class="lead">Mais uma funcionalidade poderosa para ilustrar como nossa plataforma simplifica a gestão financeira. A experiência perfeita para quem busca inovação.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="resources/imgs/imgQuadrado2.jpg" alt="Imagem dois" width="500" height="500" />
             </div>
         </div>
 
@@ -175,13 +172,14 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+                <h2 class="featurette-heading fw-normal lh-1">Soluções Inteligentes. <span class="text-body-secondary">A escolha certa.</span></h2>
+                <p class="lead">E sim, esse é o último bloco de conteúdo representativo. Pensado para mostrar como nossa fintech transforma a gestão financeira. Seu futuro financeiro, em boas mãos.</p>
             </div>
             <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="resources/imgs/imgQuadrado3.jpg" alt="Imagem três" width="500" height="500" />
             </div>
         </div>
+
 
         <hr class="featurette-divider">
     </div>
